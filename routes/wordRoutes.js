@@ -1,11 +1,5 @@
 import { Router } from "express";
-import {
-  createWord,
-  getWords,
-  getWordById,
-  updateWord,
-  deleteWord,
-} from "../controllers/wordController.js";
+import {createWord,getWords,getWordById,updateWord,deleteWord,} from "../controllers/wordController.js";
 import { authMiddleware } from "../middlewares/authMiddleware.js";
 
 const router = Router();
